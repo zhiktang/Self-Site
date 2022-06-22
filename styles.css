@@ -17,8 +17,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
-}
+  height: 50px;}
 .top-button {
   background-color: #ee88dd33; /* Green */
   border: 0.05rem solid #ee88dd;
@@ -46,4 +45,17 @@ body{
 }
 .top-button:focus {
   outline: 0;
+}
+.picture-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+.chika{
+  box-shadow: #666 0px 0px 10px;
 }
