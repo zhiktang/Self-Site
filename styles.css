@@ -112,16 +112,17 @@ body{
   font-size: 1.5rem;
   font-weight: 1000;
 }
+#test {counter-reset:socials-button;}
+#test > div {counter-increment:socials-button;}
 .socials-buttons-container{
   /* align the buttons along the middle vertically */
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 40vh;
-  left: 40vw;
+  top: calc(8rem);
+  left: calc(50vw - 20rem);
   width: 100%;
   height: 50px;
-
 }
 .socials-button{
   background-color: #ffffff;
@@ -135,7 +136,7 @@ body{
   cursor: pointer;
   transition: 200ms ease;
   z-index: 0;
-  width: 20vw;
+  width: 40rem;
   height: 4rem;
   font-weight: 1000;
   margin: 1rem;
