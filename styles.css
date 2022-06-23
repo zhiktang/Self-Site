@@ -83,3 +83,29 @@ body{
   font-size: 2rem;
   font-weight: 1000;
 }
+.pfp-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20vh;
+  left: 0;
+}
+.pfp-img{
+  width: 20rem;
+  border-radius: 0.5rem;
+}
+.bio-box{
+  position: absolute;
+  top: 30vh;
+  left: 25rem;
+  color: #ffffff;
+}
+.bio-name{
+  font-size: 2rem;
+  font-weight: 1000;
+}
+.bio-text{
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
