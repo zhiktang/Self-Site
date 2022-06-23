@@ -51,7 +51,6 @@ body{
 .top-button:active {
   background-color: #ffffff;
   color: var(--bg);
-  box-shadow: 0 5px #666;
 }
 .top-button:focus {
   outline: 0;
@@ -114,7 +113,7 @@ body{
 }
 #test {counter-reset:socials-button;}
 #test > div {counter-increment:socials-button;}
-.socials-buttons-container{
+.buttons-container{
   /* align the buttons along the middle vertically */
   justify-content: center;
   align-items: center;
@@ -124,7 +123,7 @@ body{
   width: 100%;
   height: 50px;
 }
-.socials-button{
+.link-button{
   background-color: #ffffff;
   border: 0.05rem solid #ffffff;
   color: var(--bg);
@@ -142,7 +141,7 @@ body{
   margin: 1rem;
   border-radius: 0.5rem;
 }
-.socials-button:hover {
+.link-button:hover {
   background-color: var(--bg);
   color: #ffffff;
 }
