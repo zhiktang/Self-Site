@@ -49,7 +49,6 @@ body{
   background-color: #ffffff;
   color: #ff2d7d;
   box-shadow: 0 5px #666;
-  transform: translateY(4px);
 }
 .top-button:focus {
   outline: 0;
