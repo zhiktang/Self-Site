@@ -9,19 +9,19 @@
 </head>
 <body class="top-bar">
   <div class="top-button-container">
-    <button class="top-button" id="top-button" title="Homepage" onclick="location.href='index.html'">
+    <button class="top-button" id="top-button" title="Homepage" onclick="location.href='index'">
       Homepage
     </button>
-    <button class="top-button" id="top-button" title="About Me" onclick="location.href='about.html'">
+    <button class="top-button" id="top-button" title="About Me" onclick="location.href='about'">
       About Me
     </button> 
-    <button class="top-button" id="top-button" title="Links" onclick="location.href='links.html'">
+    <button class="top-button" id="top-button" title="Links" onclick="location.href='links'">
       Socials
     </button>
-    <button class="top-button" id="top-button" title="Other Links" onclick="location.href='otherlinks.html'">
+    <button class="top-button" id="top-button" title="Other Links" onclick="location.href='otherlinks'">
       Other Links
     </button> 
-    <button class="top-button" id="top-button" title="Projects" onclick="location.href='projects.html'">
+    <button class="top-button" id="top-button" title="Projects" onclick="location.href='projects'">
       Projects
     </button> 
   </div>
