@@ -26,7 +26,9 @@ body{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;}
+  width: 100%;
+  background-color: #2de6ff6e;
+}
 .top-button {
   background-color: #ee88dd00; /* Green */
   border: 0.05rem solid #ffffff;
@@ -99,9 +101,12 @@ body{
 }
 .bio-box{
   position: absolute;
-  top: 30vh;
-  left: 25rem;
+  top: 25vh;
+  left: 23rem;
   color: #ffffff;
+  background-color: #2de6ff6e;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 .bio-name{
   font-size: 2rem;
