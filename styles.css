@@ -120,13 +120,16 @@ body{
 #test > div {counter-increment:socials-button;}
 .buttons-container{
   /* align the buttons along the middle vertically */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: calc(8rem);
-  left: calc(50vw - 20rem);
+  top :10%;
+  left: 0;
   width: 100%;
-  height: 50px;
+  height: 90%;
+  align-content: center;
 }
 .link-button{
   background-color: #ffffff;
